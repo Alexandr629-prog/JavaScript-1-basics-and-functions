@@ -5,4 +5,5 @@
  */
 module.exports = function (a, b) {
 return a+Number(b);
+
 };
