@@ -8,11 +8,14 @@ var availableDurations = ['years', 'months', 'days', 'hours', 'minutes'];
 // Превращаем "6" в "06"
 // Реализуем только для двух символов, так как для года этого делать не нужно
 function addLeadingZero(value) {
+
+
     // Приводим к строке
     value = String(value);
 
     return value.length < 2 ? '0' + value : value;
 }
+
 
 function formatDate(date) {
     var res = '';
